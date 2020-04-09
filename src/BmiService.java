@@ -1,8 +1,6 @@
-public abstract class BmiService<height mass> {
-    public abstract int calculate(int mass;int height);
-
-    int index;
-    index =mass /(height *height);
-        System.out.println(index);
-        return index;
+public class BmiService {
+    public double calculate(double mass, double height) {
+        double index;
+    index = mass * 100 / (height * height) * 100;
+        return index;}
 }
